@@ -1,0 +1,575 @@
+{
+    "name": "PrescriptionReceived",
+    "flow": [
+        {
+            "id": 2,
+            "module": "google-forms:watchRows",
+            "version": 2,
+            "parameters": {
+                "__IMTCONN__": 3165597,
+                "spreadsheetId": "1Hj0bj-MI90dKxArNVAVcNJKO-C_fpgPmYW3fArg5qqE",
+                "includesHeaders": "true",
+                "tableFirstRow": "A1:Z1",
+                "valueRenderOption": "FORMATTED_VALUE",
+                "dateTimeRenderOption": "FORMATTED_STRING",
+                "limit": 1,
+                "sheetId": "Form Responses 2"
+            },
+            "mapper": {},
+            "metadata": {
+                "designer": {
+                    "x": -1,
+                    "y": 73
+                },
+                "restore": {
+                    "__IMTCONN__": {
+                        "label": "marc.stawiski@gmail.com (marc.stawiski@gmail.com)"
+                    },
+                    "spreadsheetId": {
+                        "mode": "chose",
+                        "label": "PrescriptionForm"
+                    },
+                    "valueRenderOption": {
+                        "mode": "chose",
+                        "label": "Formatted value"
+                    },
+                    "dateTimeRenderOption": {
+                        "mode": "chose",
+                        "label": "Formatted string"
+                    },
+                    "sheetId": {
+                        "mode": "chose",
+                        "label": "Form Responses 2"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account",
+                        "label": "Connection",
+                        "required": true
+                    },
+                    {
+                        "name": "spreadsheetId",
+                        "type": "select",
+                        "label": "Spreadsheet",
+                        "required": true
+                    },
+                    {
+                        "name": "includesHeaders",
+                        "type": "hidden",
+                        "required": true
+                    },
+                    {
+                        "name": "tableFirstRow",
+                        "type": "text",
+                        "label": "Row with headers",
+                        "required": true
+                    },
+                    {
+                        "name": "valueRenderOption",
+                        "type": "select",
+                        "label": "Value render option",
+                        "validate": {
+                            "enum": [
+                                "FORMATTED_VALUE",
+                                "UNFORMATTED_VALUE",
+                                "FORMULA"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "dateTimeRenderOption",
+                        "type": "select",
+                        "label": "Date and time render option",
+                        "validate": {
+                            "enum": [
+                                "SERIAL_NUMBER",
+                                "FORMATTED_STRING"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "type": "uinteger",
+                        "label": "Limit",
+                        "required": true
+                    },
+                    {
+                        "name": "sheetId",
+                        "type": "select",
+                        "label": "Sheet",
+                        "required": true
+                    }
+                ],
+                "interface": [
+                    {
+                        "name": "__ROW_NUMBER__",
+                        "label": "Row number",
+                        "type": "number"
+                    },
+                    {
+                        "name": "__SPREADSHEET_ID__",
+                        "label": "Spreadsheet ID",
+                        "type": "text"
+                    },
+                    {
+                        "name": "__SHEET__",
+                        "label": "Sheet",
+                        "type": "text"
+                    },
+                    {
+                        "name": "0",
+                        "label": "Timestamp (A)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "1",
+                        "label": "Customer Name (B)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "2",
+                        "label": "Customer Insurance Number (C)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "3",
+                        "label": "Customer Email (D)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "4",
+                        "label": "Medication (E)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "5",
+                        "label": "Type (F)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "6",
+                        "label": "Quantity (G)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "7",
+                        "label": "(H)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "8",
+                        "label": "(I)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "9",
+                        "label": "(J)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "10",
+                        "label": "(K)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "11",
+                        "label": "(L)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "12",
+                        "label": "(M)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "13",
+                        "label": "(N)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "14",
+                        "label": "(O)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "15",
+                        "label": "(P)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "16",
+                        "label": "(Q)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "17",
+                        "label": "(R)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "18",
+                        "label": "(S)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "19",
+                        "label": "(T)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "20",
+                        "label": "(U)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "21",
+                        "label": "(V)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "22",
+                        "label": "(W)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "23",
+                        "label": "(X)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "24",
+                        "label": "(Y)",
+                        "type": "text"
+                    },
+                    {
+                        "name": "25",
+                        "label": "(Z)",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "module": "util:SetVariable2",
+            "version": 1,
+            "parameters": {},
+            "mapper": {
+                "name": "key",
+                "scope": "roundtrip",
+                "value": "{{round(random * 1000)}}"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 383,
+                    "y": 74
+                },
+                "restore": {
+                    "scope": {
+                        "label": "One cycle"
+                    }
+                },
+                "expect": [
+                    {
+                        "name": "name",
+                        "label": "Variable name",
+                        "type": "text",
+                        "required": true
+                    },
+                    {
+                        "name": "scope",
+                        "label": "Variable lifetime",
+                        "type": "select",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "roundtrip",
+                                "execution"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "value",
+                        "label": "Variable value",
+                        "type": "any"
+                    }
+                ],
+                "interface": [
+                    {
+                        "name": "key",
+                        "label": "key",
+                        "type": "any"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "module": "http:ActionSendData",
+            "version": 3,
+            "parameters": {
+                "handleErrors": false,
+                "useNewZLibDeCompress": "true"
+            },
+            "mapper": {
+                "url": "https://digibp.herokuapp.com/engine-rest/message/",
+                "serializeUrl": false,
+                "method": "post",
+                "headers": [],
+                "qs": [],
+                "bodyType": "raw",
+                "parseResponse": true,
+                "authUser": "",
+                "authPass": "",
+                "timeout": "",
+                "shareCookies": false,
+                "ca": "",
+                "rejectUnauthorized": true,
+                "followRedirect": true,
+                "useQuerystring": false,
+                "gzip": true,
+                "useMtls": false,
+                "contentType": "application/json",
+                "data": "{\n\"messageName\" : \"PrescriptionReceivedBravo\",\n\"businessKey\" : \"{{5.key}}\",\n\"processVariables\" : {\"timestamp\" : {\"value\" : \"{{2.`0`}}\",\"type\" : \"String\"},\"customerName\" : {\"value\" : \"{{2.`1`}}\",\"type\" : \"String\"},\"insuranceNumber\" : {\"value\" : \"{{2.`2`}}\",\"type\" : \"String\"},\"customerEmail\" : {\"value\" : \"{{2.`3`}}\",\"type\" : \"String\"},\"medication\" : {\"value\" : \"{{2.`4`}}\",\"type\" : \"String\"},\"type\" : {\"value\" : \"{{2.`5`}}\",\"type\" : \"String\"},\"quantity\" : {\"value\" : \"{{2.`6`}}\",\"type\" : \"String\"}}\n}",
+                "followAllRedirects": false
+            },
+            "metadata": {
+                "designer": {
+                    "x": 765,
+                    "y": 71
+                },
+                "restore": {
+                    "method": {
+                        "mode": "chose",
+                        "label": "POST"
+                    },
+                    "headers": {
+                        "mode": "chose",
+                        "items": []
+                    },
+                    "qs": {
+                        "mode": "chose",
+                        "items": []
+                    },
+                    "bodyType": {
+                        "label": "Raw"
+                    },
+                    "contentType": {
+                        "label": "JSON (application/json)"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "handleErrors",
+                        "label": "Evaluate all states as errors (except for 2xx and 3xx )",
+                        "type": "boolean",
+                        "required": true
+                    },
+                    {
+                        "name": "useNewZLibDeCompress",
+                        "type": "hidden"
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "url",
+                        "label": "URL",
+                        "type": "url",
+                        "required": true
+                    },
+                    {
+                        "name": "serializeUrl",
+                        "label": "Serialize URL",
+                        "type": "boolean",
+                        "required": true
+                    },
+                    {
+                        "name": "method",
+                        "label": "Method",
+                        "type": "select",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "get",
+                                "head",
+                                "post",
+                                "put",
+                                "patch",
+                                "delete",
+                                "options"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "headers",
+                        "label": "Headers",
+                        "type": "array",
+                        "spec": [
+                            {
+                                "name": "name",
+                                "label": "Name",
+                                "type": "text",
+                                "required": true
+                            },
+                            {
+                                "name": "value",
+                                "label": "Value",
+                                "type": "text"
+                            }
+                        ],
+                        "labels": {
+                            "add": "Add a header",
+                            "edit": "Edit a header"
+                        }
+                    },
+                    {
+                        "name": "qs",
+                        "label": "Query String",
+                        "type": "array",
+                        "spec": [
+                            {
+                                "name": "name",
+                                "label": "Name",
+                                "type": "text",
+                                "required": true
+                            },
+                            {
+                                "name": "value",
+                                "label": "Value",
+                                "type": "text"
+                            }
+                        ],
+                        "labels": {
+                            "add": "Add parameter",
+                            "edit": "Edit parameter"
+                        }
+                    },
+                    {
+                        "name": "bodyType",
+                        "label": "Body type",
+                        "type": "select",
+                        "validate": {
+                            "enum": [
+                                "raw",
+                                "x_www_form_urlencoded",
+                                "multipart_form_data"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "parseResponse",
+                        "label": "Parse response",
+                        "type": "boolean",
+                        "required": true
+                    },
+                    {
+                        "name": "authUser",
+                        "label": "User name",
+                        "type": "text"
+                    },
+                    {
+                        "name": "authPass",
+                        "label": "Password",
+                        "type": "password"
+                    },
+                    {
+                        "name": "timeout",
+                        "label": "Timeout",
+                        "type": "uinteger",
+                        "validate": {
+                            "max": 300,
+                            "min": 1
+                        }
+                    },
+                    {
+                        "name": "shareCookies",
+                        "label": "Share cookies with other HTTP modules",
+                        "type": "boolean",
+                        "required": true
+                    },
+                    {
+                        "name": "ca",
+                        "label": "Self-signed certificate",
+                        "type": "cert",
+                        "multiline": true
+                    },
+                    {
+                        "name": "rejectUnauthorized",
+                        "label": "Reject connections that are using unverified (self-signed) certificates",
+                        "type": "boolean",
+                        "required": true
+                    },
+                    {
+                        "name": "followRedirect",
+                        "label": "Follow redirect",
+                        "type": "boolean",
+                        "required": true
+                    },
+                    {
+                        "name": "useQuerystring",
+                        "label": "Disable serialization of multiple same query string keys as arrays",
+                        "type": "boolean",
+                        "required": true
+                    },
+                    {
+                        "name": "gzip",
+                        "label": "Request compressed content",
+                        "type": "boolean",
+                        "required": true
+                    },
+                    {
+                        "name": "useMtls",
+                        "label": "Use Mutual TLS",
+                        "type": "boolean",
+                        "required": true
+                    },
+                    {
+                        "name": "contentType",
+                        "label": "Content type",
+                        "type": "select",
+                        "validate": {
+                            "enum": [
+                                "text/plain",
+                                "application/json",
+                                "application/xml",
+                                "text/xml",
+                                "text/html",
+                                "custom"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "data",
+                        "label": "Request content",
+                        "type": "buffer"
+                    },
+                    {
+                        "name": "followAllRedirects",
+                        "label": "Follow all redirect",
+                        "type": "boolean",
+                        "required": true
+                    }
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "version": 1,
+        "scenario": {
+            "roundtrips": 1,
+            "shatter": false,
+            "maxErrors": 3,
+            "autoCommit": false,
+            "sequential": false,
+            "confidential": false,
+            "dataloss": false,
+            "dlq": false
+        },
+        "designer": {
+            "orphans": []
+        },
+        "zone": "eu1.integromat.com"
+    }
+}
