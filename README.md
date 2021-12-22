@@ -66,6 +66,7 @@ Integromat
 ![grafik](https://user-images.githubusercontent.com/28628058/147089361-f2a2c17e-3b02-40e6-a454-0c1203c66f88.png)
 
 Mail
+![grafik](https://user-images.githubusercontent.com/28628058/147098350-f8ed54af-2eb2-4699-bb88-ed17d2738ff2.png)
 
 ### 3. User decision
 
@@ -84,4 +85,9 @@ Integromat
 
 Integromat
 ![grafik](https://user-images.githubusercontent.com/28628058/147089389-a3439936-6a5e-4995-b13d-e5269535567c.png)
+
+Mail
+![grafik](https://user-images.githubusercontent.com/28628058/147098586-74bf52fb-0577-4467-a8c1-c43171cef206.png)
+![grafik](https://user-images.githubusercontent.com/28628058/147098624-37eed108-097f-4004-b001-63d33a741cfa.png)
+
 ___
