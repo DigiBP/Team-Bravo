@@ -21,28 +21,55 @@ The products of the online pharmacy can be collected using a vending machine tha
 
 ___
 
-## Integromat
-### Prescription received
-![grafik](https://user-images.githubusercontent.com/28628058/147089230-790fdbc9-87fc-4cd8-b68b-d924cfc6bc28.png)
+## First concept
 
-### Patient decision
-![grafik](https://user-images.githubusercontent.com/28628058/147089281-b46f5cd7-e364-43e4-85c1-39dd013ef5a3.png)
+### First process concept
+![grafik](https://user-images.githubusercontent.com/28628058/147090848-07875e5e-4335-4a8d-b330-6ebcf7b2a6e1.png)
 
-### Check stock
-![grafik](https://user-images.githubusercontent.com/28628058/147089325-d3e1ec36-69e0-42d2-a329-e0c34bacd956.png)
+### Delivery
+![grafik](https://user-images.githubusercontent.com/28628058/147090897-4b02ddb7-2a04-4adc-81e8-51abb8580b95.png)
 
-### Inform patient
-![grafik](https://user-images.githubusercontent.com/28628058/147089361-f2a2c17e-3b02-40e6-a454-0c1203c66f88.png)
+### Pick-up
+![grafik](https://user-images.githubusercontent.com/28628058/147090923-d53f6056-0b14-47dd-a7c2-da49b4a6d4a8.png)
 
-### Send invoice
-![grafik](https://user-images.githubusercontent.com/28628058/147089389-a3439936-6a5e-4995-b13d-e5269535567c.png)
+___
 
-## Google Forms
+## Final model
+![grafik](https://user-images.githubusercontent.com/28628058/147091178-49955f1e-9c78-4cdf-8e77-3acca63c83f5.png)
 
-### Prescription
+___
+
+## Workflow
+
+1. Prescription
+
+Form
 <img width="1091" alt="grafik" src="https://user-images.githubusercontent.com/28628058/147090115-fde8e143-74c2-435a-8cbf-55eb01b4d7db.png">
 
-### Delivery / Pick-up
+Integromat
+![grafik](https://user-images.githubusercontent.com/28628058/147089230-790fdbc9-87fc-4cd8-b68b-d924cfc6bc28.png)
+
+2. User information
+Integromat
+![grafik](https://user-images.githubusercontent.com/28628058/147089361-f2a2c17e-3b02-40e6-a454-0c1203c66f88.png)
+
+Mail
+
+3. User decision
+
+Form
 <img width="1090" alt="grafik" src="https://user-images.githubusercontent.com/28628058/147090147-75b790c5-8f48-4f59-86a0-4c50af21d0d1.png">
 
+Integromat
+![grafik](https://user-images.githubusercontent.com/28628058/147089281-b46f5cd7-e364-43e4-85c1-39dd013ef5a3.png)
 
+4. Check stock
+
+Integromat
+![grafik](https://user-images.githubusercontent.com/28628058/147089325-d3e1ec36-69e0-42d2-a329-e0c34bacd956.png)
+
+5. Send invoice
+
+Integromat
+![grafik](https://user-images.githubusercontent.com/28628058/147089389-a3439936-6a5e-4995-b13d-e5269535567c.png)
+___
