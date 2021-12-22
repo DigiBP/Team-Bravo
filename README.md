@@ -28,10 +28,10 @@ The first attempt was to create a BPMN model that visualizes our process and bec
 ### Main process concept
 ![grafik](https://user-images.githubusercontent.com/28628058/147090848-07875e5e-4335-4a8d-b330-6ebcf7b2a6e1.png)
 
-### Delivery
+### Delivery sub-process
 ![grafik](https://user-images.githubusercontent.com/28628058/147090897-4b02ddb7-2a04-4adc-81e8-51abb8580b95.png)
 
-### Pick-up
+### Pick-up sub-process
 ![grafik](https://user-images.githubusercontent.com/28628058/147090923-d53f6056-0b14-47dd-a7c2-da49b4a6d4a8.png)
 
 ___
