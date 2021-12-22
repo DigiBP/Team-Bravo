@@ -1,7 +1,9 @@
 # Pharma24
 
-![grafik](https://user-images.githubusercontent.com/28628058/146903533-94a32bb1-032f-4acd-918a-29d08c6ecd33.png)
 **Visit us online !** - https://sites.google.com/view/pharma24-digibp/home
+
+![grafik](https://user-images.githubusercontent.com/28628058/147106419-0ce1ba43-9fdc-4660-9339-4c246ba9aea2.png)
+
 ___
 
 ## Project concept
