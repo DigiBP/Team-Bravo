@@ -81,6 +81,9 @@ In the e-mail we inform the user about a newly available prescription. In the ma
 
 ### 3. Customer decision
 
+![3](https://user-images.githubusercontent.com/63347322/147221426-2c7f3fa0-6bd8-4902-bad2-2b4f013f14da.JPG)
+
+
 **Form**
 
 In the form we collect the information such as ID, Name, Insurance Number as well as the handover type.
@@ -95,7 +98,11 @@ All of the provided information is stored in the request content and will be sen
 
 ![grafik](https://user-images.githubusercontent.com/28628058/147089281-b46f5cd7-e364-43e4-85c1-39dd013ef5a3.png)
 
-### 4. Check stock
+### 4. Delivery process
+
+![4 5](https://user-images.githubusercontent.com/63347322/147221703-bf1717a7-f206-4c06-855d-f349a750b745.JPG)
+
+### 4.1 Check stock
 
 Once we have stored the handover type, we check with an automated scenario, if there is enough of the ordered product on stock. A rourter combined with a filtering option is checking which path to use. If there is enough on stock, we handle the order and update the database, if not we inform our stock department to order more of the desired product. We do then wait for the stock to be available again by simulating a waiting time of 2-3 day with a 15sec waiting time and increasing our stock.
 
@@ -103,7 +110,12 @@ Once we have stored the handover type, we check with an automated scenario, if t
 
 ![grafik](https://user-images.githubusercontent.com/28628058/147089325-d3e1ec36-69e0-42d2-a329-e0c34bacd956.png)
 
-### 5. Send order
+**Mail**
+
+![mail2](https://user-images.githubusercontent.com/63347322/147221767-3d47c128-d973-4e44-bc04-5452ef7c8b82.JPG)
+
+
+### 4.2 Send order
 
 ![4 7](https://user-images.githubusercontent.com/63347322/147221018-2b7f73d2-6e5f-492b-9307-8ba740044acd.JPG)
 
@@ -113,14 +125,16 @@ After checking if the product is available, a manual task has to be fullfilled, 
 ![4 8](https://user-images.githubusercontent.com/63347322/147221034-fe8c2135-a079-4c7f-a57b-d7ebd42409b2.JPG)
 
 
-### 6. Send invoice
+### 5. Send invoice
 
 The invoice is generated based on a google sheets price list, where we have defined the prices per product. In the generated mail, the platform user is informed of the total price of the ordered product, showing the final bill which would be further sent to the insurance company in a real case scenario.
 
 **Integromat**
+
 ![grafik](https://user-images.githubusercontent.com/28628058/147089389-a3439936-6a5e-4995-b13d-e5269535567c.png)
 
 **Mail**
+
 ![mail3](https://user-images.githubusercontent.com/63347322/147220956-2824ba77-f11a-4473-b4ad-6b7573ea9582.JPG)
 
 ___
