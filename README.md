@@ -43,7 +43,9 @@ ___
 
 ## Workflow
 
-### 1. Prescription
+### 1. Prescription received
+
+![1](https://user-images.githubusercontent.com/63347322/147220531-5cb04b07-6c5e-4bd1-aed6-7d0ce12b1e65.JPG)
 
 A process instance, which is triggered via google forms, starts in the service department of Pharma24.
 
@@ -64,7 +66,7 @@ After the webhook is triggered we are generating a unique random business key fo
 
 Then the process instance continues to inform the customer.
 
-### 2. User information
+### 2. Inform customer
 
 **Integromat**
 
@@ -74,9 +76,10 @@ Then the process instance continues to inform the customer.
 
 In the e-mail we inform the user about a newly available prescription. In the mail we provide him/her with a receipt ID and a link to a google form, where it is possible to choose the handover type.
 
-![grafik](https://user-images.githubusercontent.com/28628058/147098350-f8ed54af-2eb2-4699-bb88-ed17d2738ff2.png)
+![mail1](https://user-images.githubusercontent.com/63347322/147220894-c864bdac-65c3-457f-bf17-5ca873e2178c.JPG)
 
-### 3. User decision
+
+### 3. Customer decision
 
 **Form**
 
@@ -102,7 +105,13 @@ Once we have stored the handover type, we check with an automated scenario, if t
 
 ### 5. Send order
 
+![4 7](https://user-images.githubusercontent.com/63347322/147221018-2b7f73d2-6e5f-492b-9307-8ba740044acd.JPG)
+
+
 After checking if the product is available, a manual task has to be fullfilled, where a user needs to claim the job and check all of the provided user information and compare it to the information provided from the doctor. This manual task is introduced as a security option, to make shure everything is in order. In a further development step this taks could also be automated for a faster fullfillment process.
+
+![4 8](https://user-images.githubusercontent.com/63347322/147221034-fe8c2135-a079-4c7f-a57b-d7ebd42409b2.JPG)
+
 
 ### 6. Send invoice
 
@@ -112,8 +121,7 @@ The invoice is generated based on a google sheets price list, where we have defi
 ![grafik](https://user-images.githubusercontent.com/28628058/147089389-a3439936-6a5e-4995-b13d-e5269535567c.png)
 
 **Mail**
-![grafik](https://user-images.githubusercontent.com/28628058/147098586-74bf52fb-0577-4467-a8c1-c43171cef206.png)
-![grafik](https://user-images.githubusercontent.com/28628058/147098624-37eed108-097f-4004-b001-63d33a741cfa.png)
+![mail3](https://user-images.githubusercontent.com/63347322/147220956-2824ba77-f11a-4473-b4ad-6b7573ea9582.JPG)
 
 ___
 
