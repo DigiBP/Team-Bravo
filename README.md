@@ -106,7 +106,11 @@ Once we have stored the handover type, we check with an automated scenario, if t
 
 ![grafik](https://user-images.githubusercontent.com/28628058/147089325-d3e1ec36-69e0-42d2-a329-e0c34bacd956.png)
 
-### 5. Send invoice
+### 5. Send order
+
+After checking if the product is available, a manual task has to be fullfilled, where a user needs to claim the job and check all of the provided user information and compare it to the information provided from the doctor. This manual task is introduced as a security option, to make shure everything is in order. In a further development step this taks could also be automated for a faster fullfillment process.
+
+### 6. Send invoice
 
 The invoice is generated based on a google sheets price list, where we have defined the prices per product. In the generated mail, the platform user is informed of the total price of the ordered product, showing the final bill which would be further sent to the insurance company in a real case scenario.
 
