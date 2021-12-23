@@ -112,13 +112,18 @@ Once we have stored the handover type, we check with an automated scenario, if t
 
 **Mail**
 
-![mail2](https://user-images.githubusercontent.com/63347322/147221767-3d47c128-d973-4e44-bc04-5452ef7c8b82.JPG)
+![mail4 1](https://user-images.githubusercontent.com/63347322/147223066-64b1e2ed-2fc1-41ba-a823-254b2ee4564f.JPG)
 
 
-### 4.2 Send order
+### (4.2 Inform customer deliver delay)
+
+**Mail**
+
+![mail2](https://user-images.githubusercontent.com/63347322/147223102-8de40e49-7494-4232-a207-f5ba37cdb5a5.JPG)
+
+### 4.2 (4.3) Send order
 
 ![4 7](https://user-images.githubusercontent.com/63347322/147221018-2b7f73d2-6e5f-492b-9307-8ba740044acd.JPG)
-
 
 After checking if the product is available, a manual task has to be fullfilled, where a user needs to claim the job and check all of the provided user information and compare it to the information provided from the doctor. This manual task is introduced as a security option, to make shure everything is in order. In a further development step this taks could also be automated for a faster fullfillment process.
 
