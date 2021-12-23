@@ -110,6 +110,10 @@ Once we have stored the handover type, we check with an automated scenario, if t
 
 ![grafik](https://user-images.githubusercontent.com/28628058/147089325-d3e1ec36-69e0-42d2-a329-e0c34bacd956.png)
 
+**Stock**
+
+![lager](https://user-images.githubusercontent.com/63347322/147224287-6b31838d-6870-4cea-9df5-68730fbc7caa.JPG)
+
 **Mail**
 
 ![mail4 1](https://user-images.githubusercontent.com/63347322/147223066-64b1e2ed-2fc1-41ba-a823-254b2ee4564f.JPG)
@@ -137,6 +141,10 @@ The invoice is generated based on a google sheets price list, where we have defi
 **Integromat**
 
 ![grafik](https://user-images.githubusercontent.com/28628058/147089389-a3439936-6a5e-4995-b13d-e5269535567c.png)
+
+**Prices**
+
+![pricelist](https://user-images.githubusercontent.com/63347322/147224327-006daab2-fdac-494e-84c0-76cba03a8527.JPG)
 
 **Mail**
 
