@@ -122,3 +122,7 @@ The invoice is generated based on a google sheets price list, where we have defi
 ![grafik](https://user-images.githubusercontent.com/28628058/147098624-37eed108-097f-4004-b001-63d33a741cfa.png)
 
 ___
+
+## Outlook
+
+The process described has potential for many enhancements that will help to improve patient safety, increase the efficiency of Pharma24’s stakeholders, and reduce health care costs. As an example, the newly prescribed medications could be automatically checked for incompatibility with the existing medications. The medication warehouses of the individual pharmacies could be mapped into a single virtual warehouse. Price comparisons between drugs with same active ingredient could be offered to patients etc.
